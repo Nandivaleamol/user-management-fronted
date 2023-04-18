@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# User Management System - Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple user management system built using ReactJS and Bootstrap. It allows users to view a list of all users, add new users, edit existing users, and delete users.
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+To get started with this project, follow these steps:
+- 1. Clone this repository to your local machine
+- 2. Open a terminal window and navigate to the project directory
+- 3. Install the project dependencies by running npm install
+- 4. Start the development server by running npm start
+- 5. Open a web browser and navigate to http://localhost:3000 to view the application
 
-### `npm start`
+## Usage
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To use this application, follow these steps:
+- 1. View the list of all users by clicking on the "View All Users" button on the home page
+- 2. Add a new user by clicking on the "Add User" button and filling in the user details in the form
+- 3. Edit an existing user by clicking on the "Edit" button next to the user you wish to edit and updating the user details in the form
+- 4. Delete an existing user by clicking on the "Delete" button next to the user you wish to delete
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+## API
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This application uses a RESTful API to fetch and update user data. The API is located at `http://localhost:8080/api/users` and supports the following endpoints:
 
-### `npm run build`
+- 1. `GET /api/users` - get a list of all users
+- 2. `GET /api/users/{id}` - get a single user by ID
+- 3. `POST /api/users` - create a new user
+- 4. `PUT /api/users/{id}` - update an existing user by ID
+- 5. `DELETE /api/users/{id}` - delete an existing user by ID
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This project was built using the following technologies:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- ReactJS
+- Bootstrap
+- Axios
+- React Router
 
-### `npm run eject`
+## Conclusion:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This project developed using springboot mvc for backend and react js for frontend development.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
